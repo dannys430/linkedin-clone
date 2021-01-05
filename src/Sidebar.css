@@ -33,5 +33,31 @@
   
   background-size: cover;
   background-position: 50%;
-  background-image: url("https://media-exp1.licdn.com/dms/image/C4D16AQHuLQd_9NOaLg/profile-displaybackgroundimage-shrink_200_800/0/1561580662823?e=1615420800&v=beta&t=Dh1f_OS_HkHIJ9fh2m2Z7wnsjRn1Mp5amDsv0ulsiiI");
+  background-image: url('background.jpg');
+}
+
+.sidebar__stat {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar__stat > p {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sidebar__stats {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.sidebar__statNumber {
+  font-weight: bold!important;
+  color: #0a66c2!important;
 }
